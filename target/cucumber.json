@@ -1,0 +1,118 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Ahammedsorif@gmail.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary: It will verify Login functionality"
+      },
+      {
+        "line": 3,
+        "value": "#URL :http://www.executeautomation.com/demosite/Login.html"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 23,
+        "name": "User should able to login with correct username and password",
+        "description": "",
+        "id": "login-functionality;user-should-able-to-login-with-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7955621100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "LoginSteps.i_navigate_through(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6613737600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on Signin Button",
+            "match": {
+              "location": "LoginSteps.Click_on_Signin_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 964523000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 7
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 24
+                }
+              ],
+              "location": "LoginSteps.Enter_username_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 285115800,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click SignIn",
+            "match": {
+              "location": "LoginSteps.Click_SignIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3521307700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Verify User In Home Page",
+            "match": {
+              "location": "LoginSteps.Verify_User_In_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@test3"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "\tThis Feature deal with the login functionality of the application",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "Features/loginTest.feature"
+  }
+]
